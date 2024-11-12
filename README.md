@@ -3,14 +3,15 @@ Program ini untuk menghitung nilai akhir mahasiswa berdasarkan bobot nilai tugas
 
 # Deskripsi Program
 Program ini dibuat menggunakan bahasa python dengan fitur:
--menyimpan dan menghitung nilai akhir mahasiswa
--nilai akhir dihitung berdasarkan bobot tertentu dari nilai tugas, UTS, dan UAS.
--Pengguna dapat memasukkan data mahasiswa, yang meliputi nama, NIM, nilai tugas, nilai UTS, dan nilai UAS,
--lalu program akan menghitung nilai akhir berdasarkan rumus yang sudah ditentukan. Semua data yang dimasukkan akan disimpan dalam bentuk list yang berisi dictionary untuk setiap mahasiswa.
--Setelah semua data dimasukkan, program akan menampilkan daftar data mahasiswa dalam bentuk tabel yang rapi.
+-List dan Dictionary untuk penyimpanan data.
+-Fungsi Kustom (def) untuk perhitungan nilai akhir.
+-input() dan int() untuk input dan konversi data.
+-while dan if untuk kontrol alur.
+-append() dan break untuk menambah data ke list dan menghentikan perulangan.
+-print() dan F-string untuk mencetak hasil dalam bentuk tabel yang terformat.
 
 # Flowchart Program
-
+![Flowchart](https://github.com/fitrirmdhni22/praktikum5/blob/main/flowchartnilaiakhir.drawio.png?raw=true)
 
 # Kode Program
 ```python
